@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+--background-color:rgb(230, 193, 146);
+--cor-do-fundinho:rgb(228, 186, 133);
+--letra-do-titulo:rgb(255, 255, 255);
+}
+
+body{
+ background-color: var(--background-color);
+}
+
+.titulo{
+    text-align: center;
+    background-color: var(--cor-do-fundinho) ;
+    block-size: 100px;
+}
+.titulo-principal{
+    font-size: 100px;
+    color: var(--letra-do-titulo);
+}
